@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+p {
+    margin: 20px 0;
+}
+li, a {
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+     font-size: 20px;
+     color:  hsl(0, 0%, 75%);
+     text-decoration: none;
+}
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.logo {
+    cursor: pointer;
+    padding-left: 35px;
+}
+button {
+    cursor: pointer;
+}
+.nav_links {
+    list-style: none;
+    padding-right: 40px;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+     color: grey;
+}
+.container-1, .container-2, .container-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+.container-1 .img-1 {
+    width: 100%;
+    margin-left: 25px;
+}
+.illus-1 {
+    width: 65%;
+}
+.email-box {
+    width: 55%;
+    border: 1px solid hsl(243, 87%, 12%);
+    border-radius: 4px;
+    padding: 12px 95px 12px 10px;
+    margin: 0 4% 5% 0;
+    font-size: 1.05rem;
+}
+.container-1 button {
+    width: 55%;
+    background: hsl(224, 93%, 58%);
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 2% 7%;
+    font-size: 1.1rem;
+    color: white;
+}
+.bgcurve {
+    max-width: 100%; 
+    margin: 5rem 0 -1rem 0;
+}
+.container-2 {
+    background-color: hsl(240, 75%, 98%);
+    padding-top: 30px;
+}
+.container-2 .img-2 {
+    width: 100%;
+}
+.illus-2 {
+    width: 85%;
+    margin-right: 75px;
+}
+.box {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.box {
+    font-size: smaller;
+    width: 65%;
+}
+.cyan {
+    color: hsl(170, 45%, 43%) ;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.testimonial {
+    display: flex;
+    align-items: center;
+}
+.testimonial p {
+    margin: 0 0 0 5px;
+}
+.kyle {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.container-3 {
+    background-color: hsl(238, 22%, 44%);
+    padding: 5rem;
+    color: hsl(240, 75%, 98%);
+}
+.illus-3_1 {
+    width: 65%;
+}
+.illus-3_2 {
+    width: 80%;
+    margin-left: 100px;
+    line-height: 2;
+}
+.illus-3_2 .email-box {
+    width: 80%;
+}
+.container-3 button {
+    width: fit-content;
+    background: hsl(224, 93%, 58%);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 2% 7%;
+    font-size: 1.1rem;
+    color: white;
+}
+.container-4 {
+    background-color:hsl(243, 87%, 12%);
+    padding: 30px;
+}
+.illus-4 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    color: hsl(240, 75%, 98%);
+}
+.footer-logo {
+    filter: brightness(0) invert(1);
+    padding: 32px 0 0 80px;
+    margin-left: 0;
+    cursor: pointer;
+}
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+.contact-info li {
+    padding-bottom: 10px;
+}
+.menu-1, .menu-2 {
+    display: grid;
+}
+.footer_nav_links {
+    list-style: none;
+}
+.footer_nav_links li{
+    padding-bottom: 8%;
+    cursor: pointer;
+}
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    margin: 20px 0 0 0;
+}
+.attribution a {
+    color:  hsl(228, 2%, 41%);
+    font-size: 12px;
+}
+
+button:hover {
+    background: #337FED;
+}
+i {
+    width: 35px;
+    height: 35px;
+}
+.menu-3 a {
+    text-align: center;
+    padding: 0.5rem 0;
+    margin: 0.5rem;
+    border: solid 1px white;
+    border-radius: 100%;
+}
